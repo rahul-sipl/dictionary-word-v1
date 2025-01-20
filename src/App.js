@@ -29,7 +29,7 @@ function App() {
     <Container size="lg" py="xl">
       <Paper shadow="xs" p="md" mb="xl" radius="md">
         <Title order={1} align="center" mb="xl">
-          Dictionary Word Lookup
+          Dictionary
         </Title>
         
         <SearchBox onSearch={handleSearch} />

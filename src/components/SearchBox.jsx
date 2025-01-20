@@ -1,6 +1,5 @@
 import { TextInput, Button, Group } from '@mantine/core';
 import { useState } from 'react';
-
 const SearchBox = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
