@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dictionary-word-v1/static/css/main.f4579481.css",
-    "main.js": "/dictionary-word-v1/static/js/main.9a4cb5bf.js",
+    "main.js": "/dictionary-word-v1/static/js/main.b4bf792d.js",
     "index.html": "/dictionary-word-v1/index.html",
     "main.f4579481.css.map": "/dictionary-word-v1/static/css/main.f4579481.css.map",
-    "main.9a4cb5bf.js.map": "/dictionary-word-v1/static/js/main.9a4cb5bf.js.map"
+    "main.b4bf792d.js.map": "/dictionary-word-v1/static/js/main.b4bf792d.js.map"
   },
   "entrypoints": [
     "static/css/main.f4579481.css",
-    "static/js/main.9a4cb5bf.js"
+    "static/js/main.b4bf792d.js"
   ]
 }
