@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rahul-sipl/dictionary-word-v1/static/css/main.f4579481.css",
-    "main.js": "/rahul-sipl/dictionary-word-v1/static/js/main.a5117d44.js",
-    "index.html": "/rahul-sipl/dictionary-word-v1/index.html",
-    "main.f4579481.css.map": "/rahul-sipl/dictionary-word-v1/static/css/main.f4579481.css.map",
-    "main.a5117d44.js.map": "/rahul-sipl/dictionary-word-v1/static/js/main.a5117d44.js.map"
+    "main.css": "/dictionary-word-v1/static/css/main.f4579481.css",
+    "main.js": "/dictionary-word-v1/static/js/main.9a4cb5bf.js",
+    "index.html": "/dictionary-word-v1/index.html",
+    "main.f4579481.css.map": "/dictionary-word-v1/static/css/main.f4579481.css.map",
+    "main.9a4cb5bf.js.map": "/dictionary-word-v1/static/js/main.9a4cb5bf.js.map"
   },
   "entrypoints": [
     "static/css/main.f4579481.css",
-    "static/js/main.a5117d44.js"
+    "static/js/main.9a4cb5bf.js"
   ]
 }
