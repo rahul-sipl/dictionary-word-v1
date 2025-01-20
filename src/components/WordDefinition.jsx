@@ -13,7 +13,7 @@ const WordDefinition = ({ data }) => {
         <Group justify="space-between">
           <Title order={2}>{data.word}</Title>
           {data.phonetics.some(p => p.audio) && (
-            <Badge color="green" variant="light">
+            <Badge color="orange" variant="light">
               Has Audio
             </Badge>
           )}
@@ -22,7 +22,7 @@ const WordDefinition = ({ data }) => {
         {data.phonetics.map((phonetic, index) => (
           <Group key={index} spacing="md">
             {phonetic.text && (
-              <Text fw={500} color="green">
+              <Text fw={500} color="orange">
                 {phonetic.text}
               </Text>
             )}
@@ -32,7 +32,7 @@ const WordDefinition = ({ data }) => {
                 size="sm"
                 onClick={() => playAudio(phonetic.audio)}
                 leftSection={<IconVolume size={16} />}
-                color="green"
+                color="orange"
               >
                 Play Audio
               </Button>
@@ -49,7 +49,7 @@ const WordDefinition = ({ data }) => {
 
         {data.meanings.map((meaning, index) => (
           <Card key={index} withBorder padding="sm">
-            <Title order={4} color="green">
+            <Title order={4} color="orange">
               {meaning.partOfSpeech.charAt(0).toUpperCase() +
                 meaning.partOfSpeech.slice(1)}
             </Title>
